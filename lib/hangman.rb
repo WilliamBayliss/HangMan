@@ -102,6 +102,7 @@ module HangMan
         game.play_game
       else
         puts "There is no saved game!"
+        game = Game.new
       end
       exit
     end
